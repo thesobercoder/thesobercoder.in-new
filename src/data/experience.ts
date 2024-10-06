@@ -3,8 +3,8 @@ import type { Props as ExperienceProp } from "../components/experience/props";
 export const EXPERIENCE: ExperienceProp[] = [
   {
     dates: "November 2021 — Present",
-    title: "Full Stack Engineer",
-    company: "Dutch Pet (Remote)",
+    title: "Director, Engineering",
+    company: "LeaseAccelerator",
     companyUrl: "https://www.dutch.com",
     description:
       "Designed and architected dutch.com, utilizing technologies such as Shopify Storefront API, Admin API, Vue.JS, Node.JS, Liquid, Alpine.js, and Tailwind. Worked on integrating with the ReCharge subscription system and collaborated closely with designers to implement pixel-perfect layouts and user flows.",
@@ -17,12 +17,12 @@ export const EXPERIENCE: ExperienceProp[] = [
       "Alpine.js",
       "Tailwind",
     ],
-    logo: "/logos/dutchpet.jpeg",
+    logo: "/logos/leaseaccelerator.jpeg",
   },
   {
     dates: "March 2021 — November 2021",
-    title: "Full Stack Ecommerce Engineer",
-    company: "AbsoluteWeb",
+    title: "Software Enginering Manager",
+    company: "Deloitte",
     companyUrl: "https://www.absoluteweb.com",
     description:
       "Developed and maintained e-commerce solutions on Shopify (Storefront API, Admin API), BigCommerce, and Magento using React JS, Vue JS, Node JS, Liquid, SASS/PostCSS. Worked on integrating with the ReCharge subscription system and collaborated closely with designers to implement pixel-perfect layouts and user flows.",
@@ -37,26 +37,26 @@ export const EXPERIENCE: ExperienceProp[] = [
       "Liquid",
       "SASS/PostCSS",
     ],
-    logo: "/logos/aws.jpeg",
-  },
-  {
-    dates: "December 2019 — January 2021",
-    title: "Product Designer",
-    company: "Miinto",
-    companyUrl: "https://www.miinto.com",
-    description:
-      "Created a Design System for the internal system using Figma. Developed a plugin for Figma to populate prototypes with real data to enhance the prototyping and testing experience. Conducted user research and testing, and created user flows, wireframes, and Hi-Fi prototypes.",
-    technologies: ["Figma"],
-    logo: "/logos/miinto.jpeg",
+    logo: "/logos/deloitte.jpeg",
   },
   {
     dates: "January 2019 — September 2019",
-    title: "Front-End Engineer",
-    company: "Efigence",
+    title: "Lead Developer",
+    company: "EffiaSoft",
     companyUrl: "https://www.efigence.com",
     description:
       "Worked on developing a Polish Government Joint Stock Company website using JS, Magnolia CMS, and FreeMarker.",
     technologies: ["JavaScript", "Magnolia CMS", "FreeMarker"],
-    logo: "/logos/efigence.jpeg",
+    logo: "/logos/effiasoft.jpeg",
+  },
+  {
+    dates: "January 2018 — September 2019",
+    title: "Junior Developer",
+    company: "La Exactlly Software",
+    companyUrl: "https://www.efigence.com",
+    description:
+      "Worked on developing a Polish Government Joint Stock Company website using JS, Magnolia CMS, and FreeMarker.",
+    technologies: ["JavaScript", "Magnolia CMS", "FreeMarker"],
+    logo: "/logos/exactlly.jpeg",
   },
 ];
