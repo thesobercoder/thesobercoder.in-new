@@ -29,7 +29,6 @@ body {
 
 const setStyles = () => {
   var styleSheet = document.createElement("style");
-  styleSheet.type = "text/css";
   styleSheet.innerText = styles;
   document.head.appendChild(styleSheet);
 };
