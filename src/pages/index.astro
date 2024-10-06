@@ -26,14 +26,16 @@ import Layout from "../layouts/Layout.astro";
             <div>
               <a
                 href="/"
-                class="text-4xl lg:text-5xl block font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50"
+                class="text-4xl lg:text-5xl block font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50 pb-1"
               >
                 <h1>Soham Dasgupta</h1>
               </a>
-              <h2 class="mt-2 text-sm lg:text-lg font-medium text-neutral-400">
+              <h2 class="text-sm lg:text-lg font-medium text-neutral-400">
                 Enterprise Architect & Fullstack Engineer
               </h2>
-              <div class="flex flex-row gap-x-2">
+              <div
+                class="flex flex-row justify-center lg:justify-start gap-x-2"
+              >
                 <a
                   data-ccursor
                   href="mailto:soham@thesobercoder.in"
@@ -52,7 +54,7 @@ import Layout from "../layouts/Layout.astro";
               {
                 SOCIALS.length && (
                   <ul
-                    class="flex items-center justify-center lg:justify-normal gap-x-5 mt-8"
+                    class="flex items-center justify-center lg:justify-normal gap-x-5 mt-6"
                     aria-label="Social media"
                   >
                     {SOCIALS.map((social) => (
