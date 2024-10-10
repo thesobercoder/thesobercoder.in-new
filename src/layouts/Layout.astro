@@ -20,7 +20,7 @@ const { title } = Astro.props;
   </head>
 
   <body
-    class="bg-neutral-900 leading-relaxed text-neutral-200 tracking-wide antialiased selection:bg-neutral-300 selection:text-neutral-900 z-10 relative"
+    class="font-sans bg-neutral-900 leading-relaxed text-neutral-200 tracking-wide antialiased selection:bg-neutral-300 selection:text-neutral-900 z-10 relative"
   >
     <SparklesCore
       client:idle
@@ -36,12 +36,4 @@ const { title } = Astro.props;
     <slot />
     <script src="../scripts/main.ts"></script>
   </body>
-
-  <style is:global>
-    html {
-      font-family: system-ui, sans-serif;
-      background-size: 224px;
-      font-size: 1.125rem;
-    }
-  </style>
 </html>

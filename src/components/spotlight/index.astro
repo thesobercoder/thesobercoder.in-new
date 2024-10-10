@@ -7,7 +7,7 @@ const { href } = Astro.props;
 <a
   href={href}
   data-ccursor
-  class="w-28 h-12 mt-4 group relative inline-flex items-center justify-center overflow-hidden rounded-2xl bg-neutral-700 px-8 py-3 transition"
+  class="w-28 group relative inline-flex items-center justify-center overflow-hidden rounded-2xl bg-neutral-700 px-8 py-3 transition"
 >
   <div class="absolute inset-0 flex items-center [container-type:inline-size]">
     <div
@@ -21,7 +21,7 @@ const { href } = Astro.props;
   >
   </div>
   <span
-    class="relative mt-px bg-gradient-to-b from-white/25 to-white bg-clip-text text-sm font-medium text-transparent transition-all duration-200"
+    class="relative mt-px bg-gradient-to-b from-white/25 to-white bg-clip-text text-md font-medium text-transparent transition-all duration-200"
   >
     <slot />
   </span>

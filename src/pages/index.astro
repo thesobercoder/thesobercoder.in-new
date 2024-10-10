@@ -35,7 +35,7 @@ import Layout from "../layouts/Layout.astro";
                 Enterprise Architect & Fullstack Engineer
               </h2>
               <div
-                class="flex flex-row justify-center lg:justify-start gap-x-2"
+                class="flex flex-row justify-center lg:justify-start gap-x-2 w-full mt-4"
               >
                 <Spotlight href="mailto:soham@thesobercoder.in">Email</Spotlight
                 >
@@ -44,7 +44,7 @@ import Layout from "../layouts/Layout.astro";
               {
                 SOCIALS.length && (
                   <ul
-                    class="flex items-center justify-center lg:justify-normal gap-x-5 mt-6"
+                    class="flex items-center justify-between lg:justify-start gap-x-7 mt-6 w-full"
                     aria-label="Social media"
                   >
                     {SOCIALS.map((social) => (
@@ -67,7 +67,6 @@ import Layout from "../layouts/Layout.astro";
             </div>
           </div>
         </header>
-
         <main id="content" class="pt-24 lg:w-1/2 lg:py-24">
           <section
             id="about"
@@ -84,7 +83,7 @@ import Layout from "../layouts/Layout.astro";
               </h2>
             </div>
             <div>
-              <div class="mb-4 space-y-4">
+              <div class="mb-4 space-y-4 text-lg">
                 <p>
                   In my current role as a Full Stack Engineer at Dutch Pet
                   (Remote), I am at the forefront of designing and architecting
@@ -94,7 +93,6 @@ import Layout from "../layouts/Layout.astro";
                   ReCharge subscription system and collaborating closely with
                   designers to ensure pixel-perfect layouts and user flows.
                 </p>
-
                 <p>
                   Looking forward to new challenges and exciting collaborations!
                 </p>
@@ -124,12 +122,10 @@ import Layout from "../layouts/Layout.astro";
       </div>
     </div>
   </div>
-
   <footer class="flex flex-col items-center w-full pb-4 text-xs">
     <span> {new Date().getFullYear()} All rights reserved.</span>
   </footer>
 </Layout>
-
 <style scoped>
   @keyframes fadeIn {
     0% {
@@ -139,7 +135,6 @@ import Layout from "../layouts/Layout.astro";
       opacity: 1;
     }
   }
-
   .hero {
     background-image: url(/pattern.svg);
     background-position: top center;
@@ -147,10 +142,7 @@ import Layout from "../layouts/Layout.astro";
     overflow-y: visible;
     overflow-x: clip;
   }
-
-  /*
-  .hero {
+  /* .hero {
     animation: fadeIn 3s;
-  }
-   */
+  } */
 </style>

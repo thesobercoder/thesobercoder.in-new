@@ -43,7 +43,7 @@ const { dates, title, company, companyUrl, description, technologies, logo } =
                   />
                 )
               }
-              <span class="text-sm leading-normal"
+              <span class="text-lg leading-normal"
                 >{title} ·
                 <span class="inline-block">
                   {company}
@@ -54,7 +54,7 @@ const { dates, title, company, companyUrl, description, technologies, logo } =
           </a>
         </div>
       </h3>
-      <p class="mt-2 text-sm leading-normal">
+      <p class="mt-2 text-md leading-normal">
         {description}
       </p>
       {
@@ -62,7 +62,7 @@ const { dates, title, company, companyUrl, description, technologies, logo } =
           <ul class="mt-2 flex flex-wrap" aria-label="Technologies used">
             {technologies.map((technology) => (
               <li class="mr-1.5 mt-2">
-                <div class="flex items-center backdrop-blur-sm rounded-full border border-neutral-700 border-opacity-50 shadow bg-neutral-400/10 px-3 py-1 text-xs font-medium leading-5 text-neutral-300">
+                <div class="flex items-center backdrop-blur-sm rounded-full border border-neutral-700 border-opacity-50 shadow bg-neutral-400/10 px-3 py-1 text-sm font-medium leading-5 text-neutral-300">
                   {technology}
                 </div>
               </li>
