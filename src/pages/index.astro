@@ -32,7 +32,7 @@ import Layout from "../layouts/Layout.astro";
                 <h1>Soham Dasgupta</h1>
               </a>
               <h2 class="text-sm lg:text-lg font-medium text-neutral-400">
-                Enterprise Architect & Fullstack Engineer
+                Technology Leader & Enterprise Architect
               </h2>
               <div
                 class="flex flex-row justify-center lg:justify-start gap-x-2 w-full mt-4"
@@ -52,8 +52,8 @@ import Layout from "../layouts/Layout.astro";
                         <a
                           class="block hover:text-slate-200"
                           href={social.url}
-                          target="_blank"
-                          rel="noreferrer noopener"
+                          target={social.target}
+                          rel={social.rel}
                           aria-label={`${social.name} (opens in a new tab)`}
                         >
                           <span class="sr-only">{social.name}</span>
@@ -94,7 +94,7 @@ import Layout from "../layouts/Layout.astro";
                   designers to ensure pixel-perfect layouts and user flows.
                 </p>
                 <p>
-                  Looking forward to new challenges and exciting collaborations!
+                  Looking forward to new challenges and exciting opportunities!
                 </p>
               </div>
             </div>
@@ -126,23 +126,3 @@ import Layout from "../layouts/Layout.astro";
     <span> {new Date().getFullYear()} All rights reserved.</span>
   </footer>
 </Layout>
-<style scoped>
-  @keyframes fadeIn {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-  .hero {
-    background-image: url(/pattern.svg);
-    background-position: top center;
-    background-repeat: no-repeat;
-    overflow-y: visible;
-    overflow-x: clip;
-  }
-  /* .hero {
-    animation: fadeIn 3s;
-  } */
-</style>
