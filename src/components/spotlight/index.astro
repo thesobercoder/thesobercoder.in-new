@@ -1,12 +1,15 @@
 ---
 import type { Props } from "./props";
 
-const { href } = Astro.props;
+const { href, rel, target, ariaLabel } = Astro.props;
 ---
 
 <a
-  href={href}
   data-ccursor
+  href={href}
+  rel={rel}
+  target={target}
+  aria-label={ariaLabel}
   class="w-28 group relative inline-flex items-center justify-center overflow-hidden rounded-2xl bg-neutral-700 px-8 py-3 transition"
 >
   <div class="absolute inset-0 flex items-center [container-type:inline-size]">
