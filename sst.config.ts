@@ -9,11 +9,20 @@ export default $config({
     };
   },
   async run() {
+    const domain =
+      {
+        production: "thesobercoder.in",
+        dev: "dev.thesobercoder.in",
+      }[$app.stage] || $app.stage + ".dev.thesobercoder.in";
+
     new sst.aws.Astro("Website", {
-      domain: {
-        name: "thesobercoder.in",
-        redirects: ["www.thesobercoder.in"],
-      },
+      domain:
+        $app.stage === "production"
+          ? {
+              name: domain,
+              redirects: ["www.thesobercoder.in"],
+            }
+          : domain,
     });
   },
 });
