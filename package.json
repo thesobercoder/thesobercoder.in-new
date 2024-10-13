@@ -9,7 +9,7 @@
     "format": "prettier --write . --plugin=prettier-plugin-astro",
     "preview": "astro preview",
     "sst-dev": "sst dev",
-    "sst-deploy": "sst deploy"
+    "sst-prod": "sst deploy --stage production"
   },
   "dependencies": {
     "@astrojs/check": "0.9.4",
