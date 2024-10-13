@@ -1,5 +1,5 @@
 {
-  "name": "thesobercoder.in",
+  "name": "thesobercoder-in",
   "type": "module",
   "version": "0.0.3",
   "scripts": {
@@ -7,7 +7,9 @@
     "build": "astro check --minimumSeverity warning && astro build",
     "dev": "astro dev",
     "format": "prettier --write . --plugin=prettier-plugin-astro",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "sst-dev": "sst dev",
+    "sst-deploy": "sst deploy"
   },
   "dependencies": {
     "@astrojs/check": "0.9.4",

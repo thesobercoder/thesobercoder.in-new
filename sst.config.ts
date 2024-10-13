@@ -3,7 +3,7 @@
 export default $config({
   app(input) {
     return {
-      name: "thesobercoder.in",
+      name: "thesobercoder-in",
       removal: input?.stage === "production" ? "retain" : "remove",
       home: "aws",
     };
